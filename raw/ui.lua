@@ -1637,8 +1637,8 @@ function redzlib:MakeWindow(Configs)
 	end
 	function Window:AddMinimizeButton(Configs)
     -- الصور الجديدة (اختيارية)
-    local ShowImage = Configs.ShowImage or "rbxassetid://10734896206"  -- صورة لما الواجهة ظاهرة
-    local HideImage = Configs.HideImage or "rbxassetid://10734924532"  -- صورة لما الواجهة مخفية
+    local ShowImage = Configs.ShowImage or "rbxassetid://101956991637378"  -- صورة لما الواجهة ظاهرة
+    local HideImage = Configs.HideImage or "rbxassetid://101956991637378"  -- صورة لما الواجهة مخفية
     
     -- إنشاء الزر
     local Button = MakeDrag(Create("ImageButton", ScreenGui, {
